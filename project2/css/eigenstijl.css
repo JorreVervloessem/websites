@@ -1,0 +1,87 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.navbar{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 40px;
+    font-size: x-large;
+    background-color: #262222;
+}
+
+.nav-link{
+    transition: color 0.3s; 
+    color: #f0f0f0;
+}
+
+.navbar-brand{
+    color: #f0f0f0;
+    font-size: x-large;
+}
+
+.nav-link:hover{
+    color: #00FF90;
+}
+
+.navbar-brand:hover{
+    transition: none;
+    color: #f0f0f0;
+}
+
+.contact-jumbow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #00FF90;
+    border-top: 2px solid #262222;
+    border-bottom: 2px solid #262222;
+    color: #262222;
+}
+
+.contact-button{
+    background-color: #262222;
+    color: #f0f0f0;
+}
+
+.contact-button:hover{
+    background-color: #262222;
+    color: #f0f0f0;
+}
+
+
+footer{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    background-color: #262222;
+    color: #f0f0f0;
+}
+
+.contactform{
+    margin-top: 20px;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+.verzenden-contact-button{
+    margin-top: 20px;
+    background-color: #262222;
+    color: #f0f0f0;
+}
+
+.verzenden-contact-button:hover{
+    margin-top: 20px;
+    background-color: #00FF90;
+    color: #f0f0f0;
+}
+
+.form-control {
+    color: #262222;
+    border-width: 2px; 
+}
+
