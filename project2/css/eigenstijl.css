@@ -188,3 +188,48 @@ th {
 .soft {
     margin-top: 20px;
 }
+
+.hobbycarro img{
+    border-radius: 15px;
+}
+
+.hobbycarro{
+    color: rgba(255, 255, 255, 0);
+}
+
+.bigflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.divhobbycarro{
+    max-width: 55%;
+}
+
+.hobbytime{
+    max-width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+    .bigflex{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .divhobbycarro{
+        max-width: 100%;
+    }
+    .hobbytime{
+        max-width: 100%;
+    }
+}
+
+.hoh1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hoh2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
