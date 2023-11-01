@@ -30,14 +30,28 @@ body{
     color: #f0f0f0;
 }
 
-.contact-jumbow{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #00FF90;
-    border-top: 2px solid #262222;
-    border-bottom: 2px solid #262222;
-    color: #262222;
+figure{
+    margin-left: 15px;
+    margin-right: 15px;
+    
 }
+
+.cardtext{
+    font-size: xx-large;
+    text-align: end;
+}
+
+.card{
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+figure img{
+    border-radius: 15px;
+}
+
 
 .contact-button{
     background-color: #262222;
@@ -45,8 +59,22 @@ body{
 }
 
 .contact-button:hover{
-    background-color: #262222;
+    background-color: #00FF90;
     color: #f0f0f0;
+}
+
+
+
+iframe{
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fake-iframe{
+    max-width: 900px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -61,7 +89,8 @@ footer{
 }
 
 .contactform{
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .form-group{
@@ -85,3 +114,77 @@ footer{
     border-width: 2px; 
 }
 
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top img{
+    border-radius: 15px;
+}
+
+
+.toptext h1{
+    font-size: 50px;
+}
+
+.cvh2{
+    color: #20e08d;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.pagediv{
+    display: flex;
+    justify-content: center;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+  .nederlands { 
+    background-color: #ccffcc; 
+}
+  .engels { 
+    background-color: #ffffcc; 
+}
+  .frans { 
+    background-color: #ffcccc; 
+}
+
+.logo img{
+    height: 100px;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.activiteiten{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-taal{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.soft {
+    margin-top: 20px;
+}

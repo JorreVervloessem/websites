@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/eigenstijl.css">
-    <script defer src="/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/eigenstijl.css">
+    <script defer src="../js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -36,18 +36,156 @@
         </nav>
     </header>
 
-    <main>
+    <!--Ik heb deze pagina genomen van mijn vorige website en responsief gemaakt. Denk dat ik beter van 0 was begonnen-->
+    <main class="container text-center">
+        <div class="top">
+            
+            <div class="img-fluid">
+            <img src="../img/IMG_6101.jpg" class="img-fluid" alt="Prof foto van Jorre">
+            </div>
+            <div class="toptext">
+                <h1 class="ms-2">Jorre Vervloessem</h1>
+                <h2 class="cvh2">Student Programmeren</h2>
+            </div>
+        </div>
+
+        <div class="pagediv container-fluid">
+
+            <div class="left container-fluid">
+
+                <h2 class="cvh2">Over mij</h2>
+
+                <p>Braakveld 5, 2200 Morkhoven, België</p>
+                <p>0471110492</p>
+                <p>jorre.vervloessem@icloud.com</p>
+
+                <p>Geboren in Lier op 8 december 2003</p>
+                <p>In bezit van rijbewijs B en eigen wagen</p>
+
+                
+                <h2 class="cvh2">Taalvaardigheden</h2>
+                <table class="container-large table-taal">
+                <tr>
+                    <th>Taal</th>
+                    <th>Niveau</th>
+                </tr>
+                <tr>
+                    <td>Nederlands</td>
+                    <td class="nederlands">Moedertaal</td>
+                </tr>
+                <tr>
+                    <td>Engels</td>
+                    <td class="engels">Sterk</td>
+                </tr>
+                <tr>
+                    <td>Frans</td>
+                    <td class="frans">Gemiddeld</td>
+                </tr>
+                </table>
+
+                <h2 class="cvh2">Vaardigheden</h2>
+                <h3>Technisch</h3>
+                <div class="techlogo ">
+                        <div class="logo ">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/cs_logo.png" alt="C-sharp logo">
+                                        <h5 class="card-title">C#</h5>
+                                    </div>     
+                                    <div class="carousel-item">
+                                        <img src="../img/html_logo.png" alt="HTML logo">
+                                        <h5 class="card-title">HTML</h5>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="../img/css_logo.png"  alt="CSS logo">
+                                        <h5 class="card-title">CSS</h5>
+                                    </div>
+                                    
+                                    <div class="carousel-item">
+                                        <img src="../img/bootstrap_logo.png"  alt="Bootstrap logo">
+                                        <h5 class="card-title">Bootstrap</h5>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                            <img src="../img/sql_logo.png"  alt="sql logo">
+                                            <h5 class="card-title">SQL</h5>
+                                    </div>
+                                       
+                                </div>
+                                <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                </div>
+
+                <h3 class="soft">Soft skills</h3>
+                <div class="container-fluid">
+                    <ul>
+                        <li>Stressbestendig</li>
+                        <li>Rationeel</li>
+                        <li>Punctueel</li>
+                        <Li>Rechtvaardig</Li>
+                    </ul>
+                </div>
+
+            </div>
+
+        <div class="right container-fluid">
         
+            <h2 class="cvh2">Werkervaring</h2>
+            <h3>2020 - Heden: Air Liquide Herenthout</h3>
+            <h4>Operator</h4>
+            <ul>
+                <li>Vakantiewerk in de zomer. </li>
+                <li>Het voorbereiden en afwerken van industriële gasflessen.</li>
+                <li>Uitsorteren en evalueren van flessen die over datum zijn.</li>
+            </ul>
+
+            <h2 class="cvh2">Opleiding</h2>
+            <ul>
+                <li>Graduaat Programmeren</li>
+                <li>Geslaagde ingangsproef Geneeskunde</li>
+                <li>Wetenschappen-Wiskunde, kOsh Campus Collestraat Herentals </li>
+            </ul>
+
+            <h2 class="cvh2">Andere activiteiten</h2>
+            <div class="activiteiten container-fluid">
+                <div class="logo">
+                    <img src="../img/soccer-png.webp" class="img-fluid" alt="voetbal logo">
+                    <p>Voetbal</p>
+                </div>
+                <div class="logo">
+                    <img src="../img/1680377487933.png" class="img-fluid" alt="chiro logo">
+                    <p>Chiro</p>
+                </div>
+                <div class="logo">
+                    <img src="../img/38464.png" class="img-fluid" alt="fitness logo">
+                    <p>Fitness</p>
+                </div>
+            </div>
+        </div>
+
+
+
     </main>
 
-    <footer class="footer fixed-bottom text-white">
+    <footer class="footer static-bottom text-white">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="https://www.facebook.com/profile.php?id=100009245152581" class="text-white"><img src="/img/icons8-facebook-48.png" class="img-fluid" alt="Responsive image"></a>
-                    <a href="https://www.instagram.com/jorre_vervloessem/" class="text-white"><img src="/img/icons8-instagram-48.png" class="img-fluid" alt="Responsive image"></a>
-                    <a href="https://www.linkedin.com/in/jorre-vervloessem/" class="text-white"><img src="/img/icons8-linkedin-48.png" class="img-fluid" alt="Responsive image"></a>
-                    <a href="https://github.com/JorreVervloessem" class="text-white"><img src="/img/icons8-github-48.png" class="img-fluid" alt="Responsive image"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009245152581" class="text-white"><img src="../img/icons8-facebook-48.png" class="img-fluid" alt="Responsive image"></a>
+                    <a href="https://www.instagram.com/jorre_vervloessem/" class="text-white"><img src="../img/icons8-instagram-48.png" class="img-fluid" alt="Responsive image"></a>
+                    <a href="https://www.linkedin.com/in/jorre-vervloessem/" class="text-white"><img src="../img/icons8-linkedin-48.png" class="img-fluid" alt="Responsive image"></a>
+                    <a href="https://github.com/JorreVervloessem" class="text-white"><img src="../img/icons8-github-48.png" class="img-fluid" alt="Responsive image"></a>
                 </div>
                 <div class="col-12 text-center">
                     <hr>
